@@ -13,11 +13,10 @@ public class CarRental {
 
     public CarRental(){}
 
-    public CarRental(LocalDateTime start, LocalDateTime startFinish, Vehicle vehicle, Invoice invoice) {
+    public CarRental(LocalDateTime start, LocalDateTime startFinish, Vehicle vehicle) {
         this.start = start;
         this.startFinish = startFinish;
         this.vehicle = vehicle;
-        this.invoice = invoice;
     }
 
     //gets sets
