@@ -5,21 +5,20 @@ import java.time.LocalDateTime;
 public class CarRental {
 
     private LocalDateTime start;
-    private LocalDateTime startFinish;
+    private LocalDateTime finish;
 
     private Vehicle vehicle;
     private Invoice invoice;
 
+    public CarRental() {
+    }
 
-    public CarRental(){}
-
-    public CarRental(LocalDateTime start, LocalDateTime startFinish, Vehicle vehicle) {
+    public CarRental(LocalDateTime start, LocalDateTime finish, Vehicle vehicle) {
         this.start = start;
-        this.startFinish = startFinish;
+        this.finish = finish;
         this.vehicle = vehicle;
     }
 
-    //gets sets
     public LocalDateTime getStart() {
         return start;
     }
@@ -28,12 +27,12 @@ public class CarRental {
         this.start = start;
     }
 
-    public LocalDateTime getStartFinish() {
-        return startFinish;
+    public LocalDateTime getFinish() {
+        return finish;
     }
 
-    public void setStartFinish(LocalDateTime startFinish) {
-        this.startFinish = startFinish;
+    public void setFinish(LocalDateTime finish) {
+        this.finish = finish;
     }
 
     public Vehicle getVehicle() {
@@ -51,6 +50,4 @@ public class CarRental {
     public void setInvoice(Invoice invoice) {
         this.invoice = invoice;
     }
-
-
 }
