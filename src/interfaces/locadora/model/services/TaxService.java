@@ -1,4 +1,4 @@
-package interfaces.exemplos.locadora.model.services;
+package interfaces.locadora.model.services;
 
 public interface TaxService {
 

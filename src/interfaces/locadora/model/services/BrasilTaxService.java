@@ -1,4 +1,4 @@
-package interfaces.exemplos.locadora.model.services;
+package interfaces.locadora.model.services;
 
 public class BrasilTaxService implements TaxService {
 

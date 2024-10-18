@@ -1,4 +1,4 @@
-package interfaces.exemplos.locadora.application;
+package interfaces.locadora.application;
 
 
 // EXERCICIO LOCADORA:
@@ -17,10 +17,10 @@ imposto e valor total do pagamento) e informar os dados na tela. Veja os
 exemplos.
  */
 
-import interfaces.exemplos.locadora.model.entities.CarRental;
-import interfaces.exemplos.locadora.model.entities.Vehicle;
-import interfaces.exemplos.locadora.model.services.BrasilTaxService;
-import interfaces.exemplos.locadora.model.services.RentalService;
+import interfaces.locadora.model.entities.CarRental;
+import interfaces.locadora.model.entities.Vehicle;
+import interfaces.locadora.model.services.BrasilTaxService;
+import interfaces.locadora.model.services.RentalService;
 
 import java.text.ParseException;
 import java.time.LocalDateTime;

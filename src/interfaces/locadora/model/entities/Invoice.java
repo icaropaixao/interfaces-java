@@ -1,4 +1,4 @@
-package interfaces.exemplos.locadora.model.entities;
+package interfaces.locadora.model.entities;
 
 public class Invoice {
 
