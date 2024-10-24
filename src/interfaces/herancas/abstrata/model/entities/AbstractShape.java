@@ -1,13 +1,10 @@
 package interfaces.herancas.abstrata.model.entities;
-
-// Importa o enum Color, que representa as possíveis cores da forma
 import interfaces.herancas.abstrata.model.enums.Color;
 
 // Classe abstrata AbstractShape que implementa a interface Shape
 // Ela serve como uma base para outras formas geométricas que compartilharão características comuns
 public abstract class AbstractShape implements Shape {
 
-    // Atributo privado que armazena a cor da forma
     private Color color;
 
     // Construtor que inicializa a cor da forma
