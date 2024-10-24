@@ -1,4 +1,4 @@
-package interfaces.locadora.model.entities;
+package interfaces.locadora_project.model.entities;
 
 import java.time.LocalDateTime;
 

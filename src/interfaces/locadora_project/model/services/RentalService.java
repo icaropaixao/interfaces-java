@@ -1,7 +1,7 @@
-package interfaces.locadora.model.services;
+package interfaces.locadora_project.model.services;
 
-import interfaces.locadora.model.entities.CarRental;
-import interfaces.locadora.model.entities.Invoice;
+import interfaces.locadora_project.model.entities.CarRental;
+import interfaces.locadora_project.model.entities.Invoice;
 
 import java.time.Duration;
 

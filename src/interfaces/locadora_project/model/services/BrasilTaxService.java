@@ -1,4 +1,4 @@
-package interfaces.locadora.model.services;
+package interfaces.locadora_project.model.services;
 
 public class BrasilTaxService implements TaxService {
 
