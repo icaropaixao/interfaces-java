@@ -8,6 +8,9 @@ empréstimo, conforme regras de juros do Brasil.A regra de cálculo de
 juros do Brasil é juro composto padrão de 2% aomês.
 */
 
+// estudando sobre metodos deafult em interfaces !!
+
+
 import interfaces.default_methods.services.BrazilInterestService;
 import interfaces.default_methods.services.InterestService;
 import interfaces.default_methods.services.UsaInterestService;

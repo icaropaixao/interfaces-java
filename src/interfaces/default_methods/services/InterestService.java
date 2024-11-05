@@ -5,7 +5,7 @@ import java.security.InvalidParameterException; // exception para retonar
 public interface InterestService {
 
     double getInterestRate();
-9
+
     // metodo default
     default double payment(double amount, int months) {
         if (months < 1) {
